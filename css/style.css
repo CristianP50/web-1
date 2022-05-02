@@ -457,7 +457,6 @@ table {
 
 .logo a .img-logo{
     width: 90px;
-    height: 90px;
 }
 
 
@@ -502,8 +501,8 @@ table {
     }
 
     #banner{
-        background: url(../img//amarres5.jpg) ;
-        
+        background: url(../img//amarres5.jpg); 
+        background-size: cover;
     }
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
@@ -517,7 +516,7 @@ table {
     }
 
     #testimonios img{
-        min-width: 100%;
+        min-width: 99%;
         margin: 30px;
     }
 }
