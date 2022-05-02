@@ -7,6 +7,19 @@ body {
     font-weight: 400;
     overflow-x: hidden; 
 }
+
+#testimonios{
+    display: flex;
+    width: 100%;
+    justify-content: space-between; 
+    background: rgb(68, 68, 68); 
+    padding: 30px;
+}
+
+#testimonios img{
+    width: 20%;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -494,4 +507,17 @@ table {
     }
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+}
+
+@media (min-width: 20px) and (max-width: 750px) {
+    #testimonios{   
+        display: flex;
+        justify-content: space-between;
+        overflow-x: scroll;
+    }
+
+    #testimonios img{
+        min-width: 100%;
+        margin: 30px;
+    }
 }
