@@ -450,7 +450,7 @@ table {
 
 .logo{
     position: fixed;
-    right: 4%;
+    left: 4%;
     bottom: 30px;
     z-index: 999;
 }
