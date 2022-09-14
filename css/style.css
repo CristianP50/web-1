@@ -5,7 +5,8 @@ body {
     font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    overflow-x: hidden; 
+    overflow-x: hidden;
+    background: rgb(43, 42, 42);
 }
 
 #testimonios{
