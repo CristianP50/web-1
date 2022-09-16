@@ -208,3 +208,10 @@
   .copy p {
 	color: #ccc;
   }
+
+  @media (max-width:768px){
+	#simple_gallery ul li {
+		display: flex;
+		width: 50%;
+	  }
+  }
